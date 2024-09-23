@@ -2,6 +2,7 @@ local PageFiles = {}
 
 -- Rotorflight pages.
 PageFiles[#PageFiles + 1] = { title = "Status", script = "status.lua" }
+PageFiles[#PageFiles + 1] = { title = "Persistent Stats", script = "persistent_stats.lua"}
 PageFiles[#PageFiles + 1] = { title = "Rates", script = "rates.lua" }
 PageFiles[#PageFiles + 1] = { title = "Profile - PIDs", script = "pids.lua" }
 PageFiles[#PageFiles + 1] = { title = "Profile - Various", script = "profile.lua" }
